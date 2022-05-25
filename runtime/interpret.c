@@ -16,7 +16,6 @@ void interpret(char* code) {
 
         if (mode = 'n') { 
             if (c == '+') {
-                printf("%i -> %i\n", cells[cell], cells[cell]+1);
                 cells[cell]++;
             } else if (c == '-') {
                 cells[cell]--;
